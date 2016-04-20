@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ShoppingCart.aspx.cs" Inherits="AssignmentWeb.ShoppingCart" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <p>
-        <br />
+        <br /> 
     </p>
     <p> 
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="CoffeeID" DataSourceID="SqlDataSource1" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
@@ -15,7 +15,7 @@
                 <asp:CommandField EditText="Edit" ShowEditButton="True"></asp:CommandField>
                  
             </Columns> 
-        </asp:GridView> 
+        </asp:GridView>
 
     
     </p>
