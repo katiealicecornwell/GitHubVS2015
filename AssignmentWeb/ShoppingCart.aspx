@@ -14,7 +14,7 @@
                 <asp:CommandField DeleteText="Remove" ShowDeleteButton="True"></asp:CommandField>
                 <asp:CommandField EditText="Edit" ShowEditButton="True"></asp:CommandField>
                  
-            </Columns>
+            </Columns> 
         </asp:GridView>
 
     
