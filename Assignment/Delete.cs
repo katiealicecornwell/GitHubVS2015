@@ -20,7 +20,7 @@ namespace Assignment
 
         private void Delete_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'coffeeShopDataSet2.Coffee' table. You can move, or remove it, as needed.
+             // TODO: This line of code loads data into the 'coffeeShopDataSet2.Coffee' table. You can move, or remove it, as needed.
             this.coffeeTableAdapter.Fill(this.coffeeShopDataSet2.Coffee);
 
         }

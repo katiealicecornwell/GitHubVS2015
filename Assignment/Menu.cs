@@ -49,7 +49,7 @@ namespace Assignment
 
         private void btnOrderHistory_Click(object sender, EventArgs e)
         {
-            OrderHistory History = new OrderHistory();
+             OrderHistory History = new OrderHistory();
             History.Show();
         }
     }

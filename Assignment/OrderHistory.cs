@@ -23,5 +23,10 @@ namespace Assignment
             this.ordersTableAdapter.Fill(this.coffeeShopDataSet5.Orders);
 
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+             
+        }
     }
 }

@@ -52,15 +52,24 @@
     <Compile Include="Add.Designer.cs">
       <DependentUpon>Add.cs</DependentUpon>
     </Compile>
+    <Compile Include="CoffeeShopDataSet.cs">
+      <DependentUpon>CoffeeShopDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="CoffeeShopDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CoffeeShopDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="CoffeeShopDataSet1.cs">
+      <DependentUpon>CoffeeShopDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="CoffeeShopDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CoffeeShopDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CoffeeShopDataSet2.cs">
+      <DependentUpon>CoffeeShopDataSet2.xsd</DependentUpon>
     </Compile>
     <Compile Include="CoffeeShopDataSet2.Designer.cs">
       <AutoGen>True</AutoGen>

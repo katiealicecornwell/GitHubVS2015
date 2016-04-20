@@ -163,6 +163,7 @@
             this.txtCoffeeID.Name = "txtCoffeeID";
             this.txtCoffeeID.Size = new System.Drawing.Size(164, 26);
             this.txtCoffeeID.TabIndex = 23;
+            this.txtCoffeeID.TextChanged += new System.EventHandler(this.txtCoffeeID_TextChanged);
             // 
             // txtPrice
             // 
