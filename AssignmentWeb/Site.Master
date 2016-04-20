@@ -11,7 +11,7 @@
     <meta name="author" content="" />
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
-    </asp:PlaceHolder>
+    </asp:PlaceHolder> 
     <webopt:BundleReference runat="server" Path="~/Content/css" />
     <%-- ------ CSS ------ --%> 
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />

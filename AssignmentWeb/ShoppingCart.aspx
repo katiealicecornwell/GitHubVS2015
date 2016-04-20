@@ -3,7 +3,7 @@
     <p>
         <br />
     </p>
-    <p>
+    <p> 
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="CoffeeID" DataSourceID="SqlDataSource1" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
             <Columns>
                 <asp:BoundField DataField="CoffeeID" HeaderText="CoffeeID" ReadOnly="True" SortExpression="CoffeeID" />
