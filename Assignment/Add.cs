@@ -11,7 +11,7 @@ using System.Data.SqlClient;
 
 namespace Assignment
 {
-    public partial class Add : Form
+    public partial class Add : Form  
     {
         public Add()
         {
