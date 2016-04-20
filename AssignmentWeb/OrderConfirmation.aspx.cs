@@ -51,7 +51,7 @@ namespace AssignmentWeb
 
 
             MailMessage mail = new MailMessage();
-
+            //Testing
             NetworkCredential googlecred = new NetworkCredential("lindatooley@live.co.uk", "Toshto57");
             //string mail = CustEmail;
             mail.To.Add(CustEmail);
