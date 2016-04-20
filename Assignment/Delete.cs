@@ -28,9 +28,6 @@ namespace Assignment
         private void btnDelete_Click(object sender, EventArgs e)
         {
 
-           
-
-
             SqlConnection conn = new SqlConnection(@"Data Source=ELITEBOOK745\sqlexpress;Initial Catalog=CoffeeShop;Integrated Security=True;Pooling=False");
             SqlCommand DeleteRecord = new SqlCommand("DELETE FROM Coffee WHERE CoffeeID LIKE '" + txtCoffeeID.Text + "'", conn);
             conn.Open();
