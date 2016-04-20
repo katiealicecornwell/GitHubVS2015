@@ -13,7 +13,7 @@
     <p>
         <asp:Label ID="Label3" runat="server" Text="Coffee Name:"></asp:Label>
         <asp:Label ID="lblCoffeeName" runat="server"></asp:Label>
-    </p>
+    </p> 
     <p>
         <asp:Label ID="Label4" runat="server" Text="Strength: "></asp:Label>
         <asp:Label ID="lblStrength" runat="server"></asp:Label>

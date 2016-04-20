@@ -13,7 +13,7 @@
                 <asp:BoundField DataField="Grind" HeaderText="Grind" SortExpression="Grind" ReadOnly="True" />
                 <asp:CommandField DeleteText="Remove" ShowDeleteButton="True"></asp:CommandField>
                 <asp:CommandField EditText="Edit" ShowEditButton="True"></asp:CommandField>
-
+                 
             </Columns>
         </asp:GridView>
 

@@ -13,7 +13,7 @@
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
     <webopt:BundleReference runat="server" Path="~/Content/css" />
-    <%-- ------ CSS ------ --%>
+    <%-- ------ CSS ------ --%> 
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="css/animate.min.css" rel="stylesheet" type="text/css" />
