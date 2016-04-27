@@ -26,6 +26,7 @@ namespace Assignment
             AddRecord.ExecuteNonQuery();
             conn.Close();  
             MessageBox.Show("Successfully Added Coffee");
+            this.Hide();
              
         }
     }  

@@ -139,7 +139,7 @@
             this.ClientSize = new System.Drawing.Size(753, 356);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Emails";
-            this.Text = "Emails";
+            this.Text = "Awaiting Stock";
             this.Load += new System.EventHandler(this.Emails_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.awaitingStockBindingSource)).EndInit();

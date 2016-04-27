@@ -46,7 +46,7 @@ namespace Assignment
 
             if (Convert.ToInt32(txtQuantity.Text) <= 5)
             {
-                MessageBox.Show("Stock is running low. Please update this product.");
+                MessageBox.Show("Please purchase more stock");
             }
 
 
@@ -82,15 +82,15 @@ namespace Assignment
                     string email = reader[@"EmailAddress"].ToString();
                     MailMessage mail = new MailMessage();
 
-                    NetworkCredential googlecred = new NetworkCredential("lindatooley@live.co.uk", "Toshto57");
+                    NetworkCredential googlecred = new NetworkCredential("katiealicecornwell@gmail.com", "katie-1994");
 
                     mail.To.Add(email);
                     mail.Subject = "Your Coffee is now back in stock";
-                    mail.Body = "You recently requested for us to be in touch when an item was back in stock. Good news... The item is now back in stock";
-                    mail.From = new MailAddress("lindatooley@live.co.uk");
+                    mail.Body = "Your coffee is back in stock!";
+                    mail.From = new MailAddress("katiealicecornwell@gmail.com");
                     mail.IsBodyHtml = true;
                     //connection to server                    
-                    SmtpClient smtp = new SmtpClient("smtp.live.com");
+                    SmtpClient smtp = new SmtpClient("smtp.gmail.com");
                     smtp.UseDefaultCredentials = false;
                     smtp.Credentials = googlecred;
                     smtp.EnableSsl = true;
@@ -106,6 +106,17 @@ namespace Assignment
 
             conn.Close();
             MessageBox.Show("Successfully Edited Coffee");
+
+            txtCoffeeID.Clear();
+            txtCoffeeName.Clear();
+            txtGrind.Clear();
+            txtImage.Clear();
+            txtOrigin.Clear();
+            txtPrice.Clear();
+            txtStrength.Clear();
+            txtQuantity.Clear();
+            RTBDes.Clear();
+            this.coffeeTableAdapter1.Fill(this.coffeeShopDataSet4.Coffee);
 
 
 
